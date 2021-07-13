@@ -11,24 +11,24 @@ if operacao==1:
 
 	resultado = numero1+numero2;
 
-	print('O resultado é: ' resultado);
+	print('O resultado é: ' + str(resultado));
 
 elif operacao==2:
 	
 	resultado = numero1-numero2;
 
-	print('O resultado é: ' resultado);
+	print('O resultado é: ' + str(resultado));
 
 elif operacao==3:
 
 	resultado = numero1/numero2;
 
-	print('O resultado é: ' resultado);
+	print('O resultado é: ' + str(resultado));
 
 elif operacao==4:
 
 	resultado = numero1*numero2;
 
-	print('O resultado é: ' resultado);
+	print('O resultado é: ' + str(resultado));
 
 else: print('Reinicie e digite um número válido');
