@@ -33,7 +33,7 @@ while retorno==0:
 
 		resultado = numero1/numero2;
 
-		pprint('O resultado é: ' + str(resultado)+'\n');
+		print('O resultado é: ' + str(resultado)+'\n');
 
 	elif operacao==4:
 
